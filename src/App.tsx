@@ -14,6 +14,7 @@ import DarkModeToggle from "./components/03-StateAndClick/DarkModeToggle";
 import TemperatureGauge from "./components/03-StateAndClick/TemperatureGauge";
 import BankCounter from "./components/03-StateAndClick/BankCounter";
 import AccountSelector from "./components/03-StateAndClick/AccountSelector";
+import VaultStatus from "./components/03-StateAndClick/VaultStatus";
 
 
 function App() {
@@ -42,6 +43,8 @@ function App() {
             <TemperatureGauge />
             <BankCounter />
             <AccountSelector />
+            <VaultStatus />
+
         </div>
     )
 }

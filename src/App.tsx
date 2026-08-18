@@ -12,6 +12,7 @@ import ScoreBoard from "./components/03-StateAndClick/ScoreBoard";
 import VolumeControl from "./components/03-StateAndClick/VolumeControl";
 import DarkModeToggle from "./components/03-StateAndClick/DarkModeToggle";
 import TemperatureGauge from "./components/03-StateAndClick/TemperatureGauge";
+import BankCounter from "./components/03-StateAndClick/BankCounter";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
             <VolumeControl />
             <DarkModeToggle />
             <TemperatureGauge />
+            <BankCounter />
         </div>
     )
 }

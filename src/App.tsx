@@ -7,6 +7,7 @@ import CityCard from "./components/01-PropsClassiche/CityCard";
 import PostCard from "./components/02-Destructuring/PostCard";
 
 // Sezione 3: Importiamo i componenti con Stato e Click
+import { AumentaPrezzo } from "./components/03-StateAndClick/AumentaPrezzo";
 import DislikeCounter from "./components/03-StateAndClick/DislikeCounter";
 import ScoreBoard from "./components/03-StateAndClick/ScoreBoard";
 import VolumeControl from "./components/03-StateAndClick/VolumeControl";
@@ -44,6 +45,7 @@ function App() {
             <BankCounter />
             <AccountSelector />
             <VaultStatus />
+            <AumentaPrezzo />
 
         </div>
     )
